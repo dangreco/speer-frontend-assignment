@@ -1,0 +1,43 @@
+.Perks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 64px;
+}
+
+.Perk {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.PerkLine {
+    width: 25%;
+    height: 3px;
+}
+
+.PerkTitle {
+    font-size: 48px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 24px 0;
+}
+
+.PerkDescription {
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+.PerksRoot {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

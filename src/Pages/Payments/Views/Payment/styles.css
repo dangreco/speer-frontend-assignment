@@ -1,0 +1,71 @@
+.Payment {
+    width: 100%;
+}
+
+.Payment .MegaText {
+    margin: 0 0 48px 0;
+}
+
+.PaymentStep {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.PaymentStepTitle {
+
+    font-size: 32px;
+    letter-spacing: 3px;
+
+}
+
+.MultiStep {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.InputRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.InputRow > .InputColumn {
+    width: calc((100% - 48px) / 2);
+}   
+
+.MultiStep > .PaymentStep {
+    width: 45%;
+}
+
+.PlanContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.PlanContainer > * {
+    margin-right: 32px !important; 
+}
+
+.Disclaimer {
+    margin-top: 32px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.25;
+}
+
+.Disclaimer a {
+    color: var(--color-dark-blue);
+    font-weight: bold;
+    text-decoration: none;
+}

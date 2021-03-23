@@ -1,0 +1,46 @@
+.LiquidButton {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.LiquidButton:hover {
+    cursor: pointer;
+}
+
+.LiquidButton .LiquidContainer {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.LiquidButton > span {
+    position: relative;
+}
+
+.LiquidButton .Lighten {
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0.0;
+    transition: opacity var(--time-fast) var(--bezier-inOut);
+}
+
+
+.LiquidButton:hover .Lighten {
+    opacity: 0.35;
+}

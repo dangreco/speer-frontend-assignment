@@ -1,0 +1,47 @@
+.RoundedButton {
+
+    outline: none;
+    border: none;
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color var(--time-fast) var(--bezier-inOut), color var(--time-fast) var(--bezier-inOut);
+
+}
+
+.RoundedButton > span {
+    position: relative;
+    pointer-events: none;
+}
+
+.RoundedButton:hover {
+    cursor: pointer;
+    background-color: var(--color-purple) !important;
+    color: white !important;
+}
+
+.RoundedButton::before {
+    --size: 0;
+  content: '';
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, var(--color-red), transparent);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  transition: width .2s ease, height .2s ease;
+}
+
+.RoundedButton:hover::before {
+    --size: 400px;
+}

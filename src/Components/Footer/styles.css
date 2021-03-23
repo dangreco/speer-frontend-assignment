@@ -1,0 +1,41 @@
+.Footer {
+    width: 100%;
+    padding: 128px;
+    padding-bottom: 32px;
+}
+
+.FooterLink {
+    color: white;
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FooterLink a {
+    text-decoration: none;
+    color: white;
+    margin-left: 16px;
+    letter-spacing: 3px;
+}
+
+.Copytext {
+    width: 100%;
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Copyright {
+    padding-top: 24px;
+    font-size: 18px;
+    color: white;
+}
+
+.Footer .Logo {
+    font-size: 48px;
+    letter-spacing: 4.8px;
+    color: white;
+}

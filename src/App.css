@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  font-family:  Helvetica Neue, sans-serif;
+}
+
+div, button {
+  box-sizing: border-box;
+}
+
+:root {
+
+  --color-red: #d34848;
+  --color-yellow: #FFB33F;
+  --color-black: #191919;
+  --color-blue: #1FE1E9;
+  --color-purple: #5E33D1;
+  --color-dark-blue: #2F1FE9;
+
+  --bezier-inOut: cubic-bezier(0.65, 0, 0.35, 1);
+  --time-fast: 0.15s;
+  --time-slow: 0.5s;
+
+}

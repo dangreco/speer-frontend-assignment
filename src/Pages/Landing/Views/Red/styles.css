@@ -1,0 +1,73 @@
+@keyframes speakersounds {
+    0% {
+        
+    }
+    25% {
+
+    }
+    50% {
+
+    }
+    75% {
+
+    }
+    100% {
+
+    }
+}
+
+.Red {
+
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-red);
+    padding: 188px 128px 128px 128px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+
+.Red .Speakers {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: transform var(--time-fast) var(--bezier-inOut);
+}
+
+.Red .Speakers:hover {
+    transform: scale(0.98);
+}
+
+.Red .Speakers:active {
+    transform: scale(0.95);
+}
+
+.Speaker {
+    background-size: contain;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.Speaker:first-child {
+    margin-bottom: 64px;
+}
+
+.Speaker:last-child {
+    margin-top: 64px;
+}
+
+.Red .Content p {
+    width: 100%;
+    margin: 0;
+}
+
+

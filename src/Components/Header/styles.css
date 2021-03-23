@@ -1,0 +1,30 @@
+.Header {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 64px;
+
+}
+
+.LeftSide {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.Header .Logo {
+    margin-left: 72px;
+    font-size: 48px;
+    letter-spacing: 4.8px;
+}

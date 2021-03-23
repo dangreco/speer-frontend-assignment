@@ -1,0 +1,70 @@
+.Models {
+    margin-top: 128px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Model {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Model .Tier, .Model .Period, .Model .Cost {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.Model p {
+    margin: 0;
+}
+
+.Model .Tier {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.Model .Period {
+    font-size: 36px;
+}
+
+.Model .Cost {
+    font-size: 92px;
+    letter-spacing: 7.5px;
+}
+
+.Model .Colored {
+    width: 100%;
+}
+
+.Model .ModelLine {
+    width: 30%;
+    height: 3px;
+    margin-bottom: 8px;
+}
+
+.Model .Feature {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.Model .Feature p {
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+
+.Model button {
+    margin-top: 32px;
+}

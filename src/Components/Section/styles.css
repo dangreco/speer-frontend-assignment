@@ -1,0 +1,91 @@
+.Section {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.Section .Forty, .Section .Sixty, .Section .Seventy, .Section .Thirty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.Section .Forty {
+    width: 40%;
+}
+
+.Section .Sixty {
+    width: 60%;
+}
+
+
+.Section .Thirty {
+    width: 30%;
+    height: 100%;
+}
+
+.Section .Seventy {
+    width: 70%;
+}
+
+
+
+.Section .LargeText, .Section .SmallText, .Section .MegaText {
+    margin: 0;
+}
+
+.Section .MegaText {
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 7.4px;
+    text-transform: uppercase;
+    padding-bottom: 24px;
+}
+
+.Section .LargeText {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 7.4px;
+    text-transform: uppercase;
+    padding-bottom: 24px;
+}
+
+.Section .SmallText {
+    color: black;
+    font-size: 36px;
+    letter-spacing: 3px;
+    padding-bottom: 32px;
+}
+
+.MenuButton {
+
+    position: absolute;
+    top: 64px;
+    left: 64px;
+
+    padding: 0;
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    transition: transform var(--time-fast) var(--bezier-inOut);
+}
+
+.MenuButton > * {
+    transition: all var(--time-fast) var(--bezier-inOut);
+}
+
+.MenuButton:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
+

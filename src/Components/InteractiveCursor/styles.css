@@ -1,0 +1,30 @@
+.InteractiveCursor {
+    --opacity: 0;
+    opacity: var(--opacity);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+    text-align: center;
+    pointer-events: none;
+    z-index: 999999;
+    transition: opacity var(--time-fast) var(--bezier-inOut);
+}
+
+.InteractiveCursor span {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 116px;
+    height: 116px;
+    text-align: center;
+    line-height: 116px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 18px;
+}

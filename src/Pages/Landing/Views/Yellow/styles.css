@@ -1,0 +1,62 @@
+.Yellow {
+
+    width: 100%;
+    height: 100%;
+    padding: 188px 128px 128px 128px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+
+.Yellow .Forty, .Yellow .Sixty {
+    position: relative;
+
+}
+
+.Yellow .Sixty p {
+    pointer-events: none;
+  mix-blend-mode: difference !important;
+}
+
+
+.Yellow .ImageBlob1 {
+    position: absolute;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    left: -150px;
+    top: 50px;
+}
+
+.Yellow .ImageBlob2 {
+    position: absolute;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    top: -75px;
+    left: 50px;
+}
+
+.Yellow .ImageBlob3 {
+    position: absolute;
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    right: -150px;
+    bottom: -150px;
+}
+
+.ImageRevealContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

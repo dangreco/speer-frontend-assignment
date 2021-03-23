@@ -1,0 +1,70 @@
+.Reviews {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 32px;
+
+    width: 100%;
+}
+
+.Review {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ReviewStars {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Star {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    color: var(--color-black);
+}
+
+.Star > * {
+    width: 40px;
+    height: 40px;
+}
+
+
+.Reviewer {
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 24px 0;
+    letter-spacing: 3px;
+}
+
+.ReviewContent {
+    font-size: 32px;
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+
+.Thirty .Speaker {
+    position: absolute;
+    width: 25%;
+    height: 30vw;
+    background-size: cover;
+    left: 5%;
+}
+
+.Thirty .Speaker:first-child {
+    top: 25%;
+}
+
+
+.Thirty .Speaker:last-child {
+    top: 45%;
+}
